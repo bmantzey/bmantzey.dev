@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftFolio - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to bottom, #ffffff, #8e8e93);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #3b5b84;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #506e96;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #3b5b84;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e5e5ea;
+            padding-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .contact-info {
+            background: #f2f2f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .contact-info a {
+            color: #3b5b84;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #3b5b84;
+            font-weight: bold;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #3b5b84;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #555;
+            padding-left: 15px;
+        }
+        
+        .links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .links a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #3b5b84;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .links a:hover {
+            background: #506e96;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5ea;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SwiftFolio</h1>
+        <p class="subtitle">Professional iOS Developer Portfolio</p>
+        
+        <h2>About SwiftFolio</h2>
+        <p>SwiftFolio is a professional portfolio app showcasing 16+ years of iOS development expertise. Built with SwiftUI, Firebase authentication (using TDD), and MapKit integration, this app demonstrates production-quality iOS development.</p>
+        
+        <ul class="feature-list">
+            <li>Enterprise-grade Firebase authentication</li>
+            <li>Interactive global guest log with MapKit</li>
+            <li>Professional resume viewer with PDFKit</li>
+            <li>Built entirely in SwiftUI</li>
+            <li>Open source code available on GitHub</li>
+        </ul>
+        
+        <h2>Support & Contact</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:bmantzey@mac.com">bmantzey@mac.com</a></p>
+            <p><strong>Response Time:</strong> Typically within 24-48 hours</p>
+        </div>
+        
+        <div class="links">
+            <a href="https://github.com/yourusername/swiftfolio" target="_blank">View on GitHub</a>
+            <a href="https://www.linkedin.com/in/brandon-mantzey" target="_blank">LinkedIn Profile</a>
+        </div>
+        
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">What is SwiftFolio?</div>
+            <div class="faq-answer">SwiftFolio is a professional portfolio app that showcases iOS development skills and experience. It includes Firebase authentication, an interactive guest log with a global map, and a full resume viewer.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">How do I sign the guest log?</div>
+            <div class="faq-answer">First, create an account or sign in using the authentication screen. Once signed in, navigate to the Guest Log tab and tap "Go To My Entry" to add your message and location to the map.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Is my information private?</div>
+            <div class="faq-answer">Yes. Your authentication information is securely stored in Firebase. Guest log entries show only the information you choose to share (name, company, and message). Email addresses are never publicly displayed.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Can I view the source code?</div>
+            <div class="faq-answer">Yes! SwiftFolio is open source. You can view the complete source code on GitHub. The link is available both in the app and on this support page.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">What technologies are used?</div>
+            <div class="faq-answer">SwiftFolio is built with SwiftUI, Firebase Authentication (developed using Test-Driven Development), MapKit for the interactive map, and PDFKit for the resume viewer.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">I found a bug. How do I report it?</div>
+            <div class="faq-answer">Please email me at bmantzey@mac.com with details about the issue, including your device model, iOS version, and steps to reproduce the problem. You can also open an issue on the GitHub repository.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Are you available for iOS development work?</div>
+            <div class="faq-answer">Yes! I'm a Senior iOS Engineer with 16+ years of experience. Feel free to reach out via email or LinkedIn to discuss opportunities.</div>
+        </div>
+        
+        <h2>Privacy</h2>
+        <p>SwiftFolio respects your privacy. We collect minimal information:</p>
+        <ul class="feature-list">
+            <li>Email and password for authentication (stored securely in Firebase)</li>
+            <li>Guest log entries you choose to create (name, company, message, approximate location)</li>
+            <li>No analytics or tracking data is collected</li>
+            <li>No personal information is sold or shared with third parties</li>
+        </ul>
+        
+        <h2>Technical Requirements</h2>
+        <p><strong>Minimum:</strong> iOS 15.0 or later</p>
+        <p><strong>Recommended:</strong> iOS 17.0 or later for the best experience</p>
+        <p><strong>Devices:</strong> iPhone, iPad</p>
+        
+        <footer>
+            <p>&copy; 2025 Brandon Mantzey. All rights reserved.</p>
+            <p>SwiftFolio - Professional iOS Developer Portfolio</p>
+        </footer>
+    </div>
+</body>
+</html>
