@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftFolio - サポート</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(to bottom, #ffffff, #8e8e93);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #3b5b84;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #506e96;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #3b5b84;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e5e5ea;
+            padding-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .contact-info {
+            background: #f2f2f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .contact-info a {
+            color: #3b5b84;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #3b5b84;
+            font-weight: bold;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #3b5b84;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #555;
+            padding-left: 15px;
+        }
+        
+        .links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .links a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #3b5b84;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .links a:hover {
+            background: #506e96;
+        }
+        
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        
+        .lang-switch a {
+            padding: 8px 16px;
+            background: #f2f2f7;
+            border-radius: 6px;
+            font-size: 0.9em;
+            color: #3b5b84;
+            text-decoration: none;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5ea;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="/">English</a>
+        </div>
+        
+        <h1>SwiftFolio</h1>
+        <p class="subtitle">プロフェッショナルiOS開発者ポートフォリオ</p>
+        
+        <h2>SwiftFolioについて</h2>
+        <p>SwiftFolioは、16年以上のiOS開発の専門知識を披露するプロフェッショナルなポートフォリオアプリです。SwiftUI、Firebase認証（TDDを使用）、およびMapKit統合で構築されたこのアプリは、プロダクション品質のiOS開発を実証します。</p>
+        
+        <ul class="feature-list">
+            <li>エンタープライズグレードのFirebase認証</li>
+            <li>MapKitを使用したインタラクティブなグローバルゲストログ</li>
+            <li>PDFKitを使用したプロフェッショナルな履歴書ビューア</li>
+            <li>完全にSwiftUIで構築</li>
+            <li>GitHubでオープンソースコードが利用可能</li>
+        </ul>
+        
+        <h2>サポート・お問い合わせ</h2>
+        <div class="contact-info">
+            <p><strong>メール：</strong> <a href="mailto:bmantzey@mac.com">bmantzey@mac.com</a></p>
+            <p><strong>返信時間：</strong> 通常24〜48時間以内</p>
+        </div>
+        
+        <div class="links">
+            <a href="https://github.com/yourusername/swiftfolio" target="_blank">GitHubで表示</a>
+            <a href="https://www.linkedin.com/in/brandon-mantzey" target="_blank">LinkedInプロフィール</a>
+            <a href="/ja/privacy.html">プライバシーポリシー</a>
+        </div>
+        
+        <h2>よくある質問</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">SwiftFolioとは何ですか？</div>
+            <div class="faq-answer">SwiftFolioは、iOS開発のスキルと経験を披露するプロフェッショナルなポートフォリオアプリです。Firebase認証、グローバルマップを備えたインタラクティブなゲストログ、完全な履歴書ビューアが含まれています。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">ゲストログに署名するにはどうすればよいですか？</div>
+            <div class="faq-answer">まず、認証画面を使用してアカウントを作成またはサインインしてください。サインインしたら、ゲストログタブに移動し、「自分のエントリへ移動」をタップして、メッセージと位置情報をマップに追加します。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">私の情報はプライベートですか？</div>
+            <div class="faq-answer">はい。認証情報はFirebaseに安全に保存されます。ゲストログエントリーには、共有を選択した情報（名前、会社、メッセージ）のみが表示されます。メールアドレスは公開されません。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">ソースコードを表示できますか？</div>
+            <div class="faq-answer">はい！SwiftFolioはオープンソースです。完全なソースコードはGitHubで表示できます。リンクはアプリ内とこのサポートページの両方で利用できます。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">どのような技術が使用されていますか？</div>
+            <div class="faq-answer">SwiftFolioは、SwiftUI、Firebase認証（テスト駆動開発を使用して開発）、インタラクティブマップ用のMapKit、履歴書ビューア用のPDFKitで構築されています。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">バグを見つけました。報告するにはどうすればよいですか？</div>
+            <div class="faq-answer">デバイスモデル、iOSバージョン、問題を再現する手順などの詳細を記載して、bmantzey@mac.comまでメールでご連絡ください。GitHubリポジトリでissueを開くこともできます。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">iOS開発の仕事を受け付けていますか？</div>
+            <div class="faq-answer">はい！私は16年以上の経験を持つシニアiOSエンジニアです。機会について話し合うために、メールまたはLinkedInを通じてお気軽にご連絡ください。</div>
+        </div>
+        
+        <h2>プライバシー</h2>
+        <p>SwiftFolioはあなたのプライバシーを尊重します。最小限の情報のみを収集します：</p>
+        <ul class="feature-list">
+            <li>認証用のメールとパスワード（Firebaseに安全に保存）</li>
+            <li>作成を選択したゲストログエントリー（名前、会社、メッセージ、おおよその位置情報）</li>
+            <li>分析や追跡データは収集されません</li>
+            <li>個人情報が第三者に販売または共有されることはありません</li>
+        </ul>
+        <p><a href="/ja/privacy.html">完全なプライバシーポリシーを表示</a></p>
+        
+        <h2>技術要件</h2>
+        <p><strong>最小：</strong> iOS 15.0以降</p>
+        <p><strong>推奨：</strong> 最高のエクスペリエンスのためにiOS 17.0以降</p>
+        <p><strong>デバイス：</strong> iPhone、iPad</p>
+        
+        <footer>
+            <p>&copy; 2025 Brandon Mantzey. All rights reserved.</p>
+            <p>SwiftFolio - プロフェッショナルiOS開発者ポートフォリオ</p>
+        </footer>
+    </div>
+</body>
+</html>
