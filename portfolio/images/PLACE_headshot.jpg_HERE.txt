@@ -1,0 +1,12 @@
+PLACEHOLDER - REPLACE WITH YOUR PHOTO
+
+Instructions:
+1. Take your file: Black_Shirt_and_Tie.jpg
+2. Rename it to: headshot.jpg
+3. Place it in this images/ folder (replace this file)
+
+Recommended specs:
+- Minimum size: 400x400px
+- Format: JPG
+- Square aspect ratio preferred
+- Professional headshot
