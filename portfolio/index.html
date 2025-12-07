@@ -49,7 +49,105 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 
-                <!-- Project 1: Perficient Transition Hub -->
+                <!-- Project 1: SwiftFolio -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="200" height="200" fill="#1d1d1f"/>
+                                <text x="100" y="100" font-family="Arial, sans-serif" font-size="48" fill="#f5f5f7" text-anchor="middle" dominant-baseline="middle">{ }</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SwiftFolio</h3>
+                        <p class="project-company">Independent Development</p>
+                        <p class="project-description">Professional portfolio iOS application built with modern SwiftUI and Firebase backend. Comprehensive TDD approach with full CI/CD pipeline via Xcode Cloud. Demonstrates mastery of current iOS development stack and DevOps practices.</p>
+                        <div class="project-tags">
+                            <span class="tag">SwiftUI</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">TDD</span>
+                            <span class="tag">Xcode Cloud</span>
+                        </div>
+                        <button class="project-expand" data-project="project1">Learn More</button>
+                        <div class="project-details" id="project1">
+                            <ul>
+                                <li>Built with SwiftUI from ground up demonstrating modern declarative UI development</li>
+                                <li>Firebase integration: Authentication, Firestore database, Cloud Hosting for dynamic content</li>
+                                <li>Test-driven development with XCTest ensuring code quality and reliability</li>
+                                <li>Interactive map with guestbook functionality using real-time Firestore synchronization</li>
+                                <li>PDF viewer system pulling always-current resume from Firebase Hosting</li>
+                                <li>Complete CI/CD pipeline with Xcode Cloud, GitHub integration, and automated TestFlight deployment</li>
+                                <li>Jira project management and Agile methodology applied to solo project development</li>
+                            </ul>
+                            <a href="https://github.com/bmantzey" target="_blank" class="btn btn-small">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Garmin Dive -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/app-store/garmin-dive.png" alt="Garmin Dive">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Garmin Dive</h3>
+                        <p class="project-company">Garmin International</p>
+                        <p class="project-description">Dual-platform diving application with 4.8-star App Store rating and 30+ language support. Learned Android/Kotlin from scratch, achieving productivity parity with iOS despite 10+ years iOS background. Significant contributor to initial app launch.</p>
+                        <div class="project-tags">
+                            <span class="tag">Swift + Kotlin</span>
+                            <span class="tag">MVVM</span>
+                            <span class="tag">Bluetooth (BLE)</span>
+                            <span class="tag">GraphQL</span>
+                        </div>
+                        <button class="project-expand" data-project="project2">Learn More</button>
+                        <div class="project-details" id="project2">
+                            <ul>
+                                <li>Developed features simultaneously across iOS (Swift) and Android (Kotlin) maintaining platform parity</li>
+                                <li>Integrated Garmin's proprietary Bluetooth SDKs (GFDI, MultiLink) for dive computer synchronization</li>
+                                <li>Implemented Apollo GraphQL for real-time backend synchronization with offline-first Realm database</li>
+                                <li>Built comprehensive Firebase integration (Analytics, Crashlytics, Remote Config, Performance)</li>
+                                <li>Delivered production app with 4.8-star rating serving global scuba diving community</li>
+                                <li>Adapted to rigorous code review standards and TDD practices using Quick/Nimble frameworks</li>
+                            </ul>
+                            <a href="https://apps.apple.com/us/app/garmin-dive/id1461262794" target="_blank" class="btn btn-small">View on App Store</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Project 3: Lindsay FieldNET -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/app-store/fieldnet.png" alt="FieldNET Mobile">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">FieldNET Mobile</h3>
+                        <p class="project-company">Lindsay Corporation</p>
+                        <p class="project-description">Complete flagship iOS app rewrite from screenshots only. Delivered MVP ahead of schedule earning CEO recognition at awards banquet. Serves hundreds of thousands of agriculture professionals worldwide controlling Zimmatic pivot irrigation systems.</p>
+                        <div class="project-tags">
+                            <span class="tag">Clean Swift (VIP)</span>
+                            <span class="tag">Core Data</span>
+                            <span class="tag">IoT</span>
+                            <span class="tag">MapKit</span>
+                        </div>
+                        <button class="project-expand" data-project="project3">Learn More</button>
+                        <div class="project-details" id="project3">
+                            <ul>
+                                <li>Architected Clean Swift (VIP) pattern across 631 Swift files demonstrating scalable architecture ownership</li>
+                                <li>Built offline-first system enabling reliable operation in remote agricultural locations without connectivity</li>
+                                <li>Implemented Variable Rate Irrigation (VRI) control for precision agriculture and water conservation</li>
+                                <li>Collaborated with backend team optimizing API schemas for mobile consumption and server performance</li>
+                                <li>Led Android consultant team maintaining feature parity across platforms</li>
+                                <li>6-language localization supporting global agricultural markets</li>
+                            </ul>
+                            <a href="https://apps.apple.com/us/app/fieldnet/id1263117100" target="_blank" class="btn btn-small">View on App Store</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Project 4: Perficient Transition Hub -->
                 <article class="project-card">
                     <div class="project-image">
                         <img src="images/projects/transition-hub-mockup.svg" alt="Transition Hub">
@@ -65,8 +163,8 @@
                             <span class="tag">XML/JSON</span>
                             <span class="tag">Flutterflow</span>
                         </div>
-                        <button class="project-expand" data-project="project1">Learn More</button>
-                        <div class="project-details" id="project1">
+                        <button class="project-expand" data-project="project4">Learn More</button>
+                        <div class="project-details" id="project4">
                             <ul>
                                 <li>Architected XML/JSON-based messaging system giving business complete control over customer communications without engineering intervention</li>
                                 <li>Maintained 3 iOS applications simultaneously (TDA Mobile, TDA Authenticator, Schwab Mobile) serving 13.5M+ users</li>
@@ -77,100 +175,6 @@
                     </div>
                 </article>
 
-                <!-- Project 2: Lindsay FieldNET -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="images/app-store/fieldnet.png" alt="FieldNET Mobile">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">FieldNET Mobile</h3>
-                        <p class="project-company">Lindsay Corporation</p>
-                        <p class="project-description">Complete flagship iOS app rewrite from screenshots only. Delivered MVP ahead of schedule earning CEO recognition at awards banquet. Serves hundreds of thousands of agriculture professionals worldwide controlling Zimmatic pivot irrigation systems.</p>
-                        <div class="project-tags">
-                            <span class="tag">Clean Swift (VIP)</span>
-                            <span class="tag">Core Data</span>
-                            <span class="tag">IoT</span>
-                            <span class="tag">MapKit</span>
-                        </div>
-                        <button class="project-expand" data-project="project2">Learn More</button>
-                        <div class="project-details" id="project2">
-                            <ul>
-                                <li>Architected Clean Swift (VIP) pattern across 631 Swift files demonstrating scalable architecture ownership</li>
-                                <li>Built offline-first system enabling reliable operation in remote agricultural locations without connectivity</li>
-                                <li>Implemented Variable Rate Irrigation (VRI) control for precision agriculture and water conservation</li>
-                                <li>Collaborated with backend team optimizing API schemas for mobile consumption and server performance</li>
-                                <li>Led Android consultant team maintaining feature parity across platforms</li>
-                                <li>6-language localization supporting global agricultural markets</li>
-                            </ul>
-                            <a href="https://apps.apple.com/us/app/fieldnet/id1288019945" target="_blank" class="btn btn-small">View on App Store</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 3: Garmin Dive -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="images/app-store/garmin-dive.png" alt="Garmin Dive">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Garmin Dive</h3>
-                        <p class="project-company">Garmin International</p>
-                        <p class="project-description">Dual-platform diving application with 4.8-star App Store rating and 30+ language support. Learned Android/Kotlin from scratch, achieving productivity parity with iOS despite 10+ years iOS background. Significant contributor to initial app launch.</p>
-                        <div class="project-tags">
-                            <span class="tag">Swift + Kotlin</span>
-                            <span class="tag">MVVM</span>
-                            <span class="tag">Bluetooth (BLE)</span>
-                            <span class="tag">GraphQL</span>
-                        </div>
-                        <button class="project-expand" data-project="project3">Learn More</button>
-                        <div class="project-details" id="project3">
-                            <ul>
-                                <li>Developed features simultaneously across iOS (Swift) and Android (Kotlin) maintaining platform parity</li>
-                                <li>Integrated Garmin's proprietary Bluetooth SDKs (GFDI, MultiLink) for dive computer synchronization</li>
-                                <li>Implemented Apollo GraphQL for real-time backend synchronization with offline-first Realm database</li>
-                                <li>Built comprehensive Firebase integration (Analytics, Crashlytics, Remote Config, Performance)</li>
-                                <li>Delivered production app with 4.8-star rating serving global scuba diving community</li>
-                                <li>Adapted to rigorous code review standards and TDD practices using Quick/Nimble frameworks</li>
-                            </ul>
-                            <a href="https://apps.apple.com/us/app/garmin-dive/id1522633851" target="_blank" class="btn btn-small">View on App Store</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 4: Game Engine -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="project-image-placeholder">
-                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="200" height="200" fill="#1d1d1f"/>
-                                <text x="100" y="100" font-family="Arial, sans-serif" font-size="48" fill="#f5f5f7" text-anchor="middle" dominant-baseline="middle">{ }</text>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Custom Game Engine (2008)</h3>
-                        <p class="project-company">Independent Development</p>
-                        <p class="project-description">Built comprehensive reusable game development framework from scratch before Unity/Cocos2D maturity. 90+ source files compiled into 2.8MB static libraries across 3 architectures. Used in multiple shipped iOS games during iPhone SDK's first years.</p>
-                        <div class="project-tags">
-                            <span class="tag">OpenGL ES</span>
-                            <span class="tag">Objective-C</span>
-                            <span class="tag">C++</span>
-                            <span class="tag">Game Architecture</span>
-                        </div>
-                        <button class="project-expand" data-project="project4">Learn More</button>
-                        <div class="project-details" id="project4">
-                            <ul>
-                                <li>TextureManager with 24MB OpenGL ES memory enforcement preventing crashes on constrained iPhone hardware</li>
-                                <li>StateMachine with NSArray-based stack enabling sophisticated game state management</li>
-                                <li>Custom bitmap font system ported from C++/DirectX to Objective-C/OpenGL for iOS</li>
-                                <li>Particle engine with visual editor tool demonstrating cross-platform development capability</li>
-                                <li>Dual audio system (OpenAL for effects, AVFoundation for music) optimized for use case</li>
-                                <li>Pioneered iOS game development during platform's infancy, building complete solutions without existing frameworks</li>
-                            </ul>
-                            <a href="https://github.com/bmantzey" target="_blank" class="btn btn-small">View on GitHub</a>
-                        </div>
-                    </div>
-                </article>
 
             </div>
         </div>
