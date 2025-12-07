@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting…</title>
+
+  <!-- Meta-refresh fallback -->
+  <meta http-equiv="refresh" content="0;url=/portfolio">
+
+  <!-- Helpful for SEO/crawlers -->
+  <link rel="canonical" href="/portfolio">
+
+  <script>
+    // Immediate client-side redirect without adding this page to history
+    (function () {
+      var target = '/portfolio';
+      try {
+        if (location.pathname !== target) {
+          location.replace(target);
+        }
+      } catch (e) {
+        // swallow errors; the meta refresh covers non-JS cases
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to the <a href="/portfolio">portfolio</a>… If you are not redirected automatically, click the link.</p>
+</body>
+</html>
